@@ -9,12 +9,7 @@ class EmailParser
   attr_accessor :email
   
   def parse
-    @email.to_a.split(" " || ",")
+    puts @email
   end  
   
 end
-
-EmailParser.new("krouse@gmail.com, krouse@gmail.com")
-
-def email=(emails)
-  @email = emails
