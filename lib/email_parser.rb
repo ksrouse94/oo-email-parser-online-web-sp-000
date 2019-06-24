@@ -5,6 +5,7 @@
 
 class EmailParser
   
+  #setter and getter for email variable
   attr_accessor :email
   
   def parse
