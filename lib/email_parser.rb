@@ -8,8 +8,12 @@ class EmailParser
   #setter and getter for email variable
   attr_accessor :email
   
+  def initialize(emails)
+    @email = emails
+  end  
+  
   def parse
-    puts email
+    @email = 
   end  
   
 end
