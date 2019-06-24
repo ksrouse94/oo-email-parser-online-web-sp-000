@@ -9,7 +9,7 @@ class EmailParser
   attr_accessor :email
   
   def parse
-    puts @email
+    puts email
   end  
   
 end
